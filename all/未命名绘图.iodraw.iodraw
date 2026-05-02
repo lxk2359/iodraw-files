@@ -1,110 +1,23 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0" version="24.7.17">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1489" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1042" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="QUjkQv0zarq3duhb7tP9-0" value="对比实验" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="798" y="949" width="325" height="403" as="geometry" />
-        </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-1" value="多融合策略&#xa;早期简单融合 / 中期注意力机制 / 晚期加权融合" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="QUjkQv0zarq3duhb7tP9-0">
-          <mxGeometry x="46" y="43" width="250" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-2" value="多基线模型&#xa;仅CNN / 仅LSTM / 融合CNN × LSTM" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="QUjkQv0zarq3duhb7tP9-0">
-          <mxGeometry x="47" y="177" width="248" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-3" value="消融实验&#xa;仅时序分支 / 仅频谱分支 / 双视图互补融合" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="QUjkQv0zarq3duhb7tP9-0">
-          <mxGeometry x="55" y="293" width="232" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-4" value="融合与训练" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="QUjkQv0zarq3duhb7tP9-4" value="融合与训练" style="whiteSpace=wrap;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="82" y="783" width="969" height="116" as="geometry" />
         </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-5" value="双视图特征提取" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="QUjkQv0zarq3duhb7tP9-5" value="双视图特征提取" style="whiteSpace=wrap;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="20" y="567" width="626" height="166" as="geometry" />
         </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-6" value="频谱视图&#xa;STFT短时傅里叶变换" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="338" y="592" width="288" height="116" as="geometry" />
-        </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-7" value="时序视图&#xa;(64步滑动窗口)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="QUjkQv0zarq3duhb7tP9-7" value="时序视图&#xa;(64步滑动窗口)" style="whiteSpace=wrap;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="40" y="592" width="278" height="116" as="geometry" />
         </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-8" value="" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="264" y="80" width="436" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-9" value="数据处理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="QUjkQv0zarq3duhb7tP9-8">
-          <mxGeometry x="26" y="4.3478260869565215" width="60.49" height="10.434782608695652" as="geometry" />
-        </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-10" value="缺失值清洗" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="QUjkQv0zarq3duhb7tP9-8">
-          <mxGeometry x="116" y="4.3478260869565215" width="74" height="10.434782608695652" as="geometry" />
-        </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-11" value="划分数据集" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="QUjkQv0zarq3duhb7tP9-8">
-          <mxGeometry x="216" y="4.35" width="76.72" height="55.65" as="geometry" />
-        </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-12" value="归一化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="QUjkQv0zarq3duhb7tP9-8">
-          <mxGeometry x="316" y="4.3478260869565215" width="64.27" height="10.434782608695652" as="geometry" />
-        </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-13" value="风电功率数据集" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="QUjkQv0zarq3duhb7tP9-13" value="风电功率数据集" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="414" y="20" width="135" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-14" value="时间分支&#xa;1D CNN × LSTM&#xa;64维特征向量" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="QUjkQv0zarq3duhb7tP9-14" value="时间分支&#xa;1D CNN × LSTM&#xa;64维特征向量" style="whiteSpace=wrap;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="75" y="617" width="208" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-15" value="频率分支&#xa;2D CNN&#xa;1024维特征向量" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="373" y="617" width="218" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-16" value="晚期融合：结果层面融合" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="212" y="817" width="236" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-17" value="多超参数组合对比" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="498" y="817" width="188" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-18" value="输出：得到最终模型，反归一化输出预测结果" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="736" y="808" width="252" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-19" value="评估模型性能与调度" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="760" y="1402" width="204" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.77;entryX=0;entryY=0.26;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QUjkQv0zarq3duhb7tP9-18" target="QUjkQv0zarq3duhb7tP9-19">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="445" y="899" />
-              <mxPoint x="445" y="1377" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QUjkQv0zarq3duhb7tP9-13" target="QUjkQv0zarq3duhb7tP9-8">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-22" value="" style="curved=1;startArrow=none;endArrow=block;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QUjkQv0zarq3duhb7tP9-8" target="QUjkQv0zarq3duhb7tP9-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-23" value="" style="curved=1;startArrow=none;endArrow=block;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QUjkQv0zarq3duhb7tP9-14" target="QUjkQv0zarq3duhb7tP9-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-24" value="" style="curved=1;startArrow=none;endArrow=block;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QUjkQv0zarq3duhb7tP9-15" target="QUjkQv0zarq3duhb7tP9-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.72;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QUjkQv0zarq3duhb7tP9-18" target="QUjkQv0zarq3duhb7tP9-0">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="961" y="899" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.74;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QUjkQv0zarq3duhb7tP9-0" target="QUjkQv0zarq3duhb7tP9-19">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="961" y="1377" />
-            </Array>
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
