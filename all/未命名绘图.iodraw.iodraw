@@ -28,11 +28,11 @@
         <mxCell id="QUjkQv0zarq3duhb7tP9-7" value="时序视图&#xa;(64步滑动窗口)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="40" y="592" width="278" height="116" as="geometry" />
         </mxCell>
-        <mxCell id="QUjkQv0zarq3duhb7tP9-8" value="数据预处理模块" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="260" y="80" width="436" height="414" as="geometry" />
+        <mxCell id="QUjkQv0zarq3duhb7tP9-8" value="" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="264" y="80" width="436" height="414" as="geometry" />
         </mxCell>
         <mxCell id="QUjkQv0zarq3duhb7tP9-9" value="数据处理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="QUjkQv0zarq3duhb7tP9-8">
-          <mxGeometry x="109.50697674418605" y="43" width="251.4604651162791" height="48" as="geometry" />
+          <mxGeometry x="109.51" y="43" width="60.49" height="48" as="geometry" />
         </mxCell>
         <mxCell id="QUjkQv0zarq3duhb7tP9-10" value="缺失值填充" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="QUjkQv0zarq3duhb7tP9-8">
           <mxGeometry x="93.28372093023256" y="141" width="283.90697674418607" height="48" as="geometry" />
