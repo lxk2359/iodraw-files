@@ -38,7 +38,7 @@
           <mxGeometry x="116" y="4.3478260869565215" width="74" height="10.434782608695652" as="geometry" />
         </mxCell>
         <mxCell id="QUjkQv0zarq3duhb7tP9-11" value="划分数据集" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="QUjkQv0zarq3duhb7tP9-8">
-          <mxGeometry x="216" y="17.17" width="76.72" height="55.65" as="geometry" />
+          <mxGeometry x="216" y="4.35" width="76.72" height="55.65" as="geometry" />
         </mxCell>
         <mxCell id="QUjkQv0zarq3duhb7tP9-12" value="归一化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="QUjkQv0zarq3duhb7tP9-8">
           <mxGeometry x="316" y="4.3478260869565215" width="64.27" height="10.434782608695652" as="geometry" />
