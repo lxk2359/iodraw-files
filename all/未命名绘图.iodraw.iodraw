@@ -68,13 +68,13 @@
           <mxGeometry x="10" y="30" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sn9lcqebs0PD06XaS1zU-23" value="缺失值清洗" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="sn9lcqebs0PD06XaS1zU-21">
-          <mxGeometry x="100" y="30" width="80.84" height="46.75" as="geometry" />
+          <mxGeometry x="100" y="30" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sn9lcqebs0PD06XaS1zU-24" value="划分数据集" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="sn9lcqebs0PD06XaS1zU-21">
           <mxGeometry x="210" y="30" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sn9lcqebs0PD06XaS1zU-25" value="归一化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="sn9lcqebs0PD06XaS1zU-21">
-          <mxGeometry x="106.69767441860465" y="103.68599033816425" width="185.86046511627907" height="14.724637681159418" as="geometry" />
+          <mxGeometry x="106.69767441860465" y="103.68599033816425" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sn9lcqebs0PD06XaS1zU-26" value="风电功率数据集" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="80" y="150" width="135" height="33" as="geometry" />
